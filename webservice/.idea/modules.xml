@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ControlPoint.iml" filepath="$PROJECT_DIR$/ControlPoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webservice.iml" filepath="$PROJECT_DIR$/.idea/webservice.iml" />
     </modules>
   </component>
 </project>

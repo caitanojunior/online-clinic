@@ -54,6 +54,7 @@ function populateTable() {
 		var thisClientObject = clientListData[arrayPosition];
 
 		//Populate Info Box
+        $('#clientInfoId').text(thisClientObject._id);
 		$('#clientInfoName').text(thisClientObject.fullname);
 		$('#clientInfoPhone').text(thisClientObject.phone);
 		$('#clientInfoSchedulingDate').text(thisClientObject.schedulingDate);
@@ -114,21 +115,59 @@ function addClient(event) {
     }
 };
 
-// Edit Client
-function editClient(event) {
+// Get Client
+function getClient(event) {
     event.preventDefault();
 
-    name = document.getElementById('clientInfoName').innerHTML;
-    phone = document.getElementById('clientInfoPhone').innerHTML;
-    schedulingDate = document.getElementById('clientInfoSchedulingDate').innerHTML;
-    schedulingHour = document.getElementById('clientInfoSchedulingHour').innerHTML;
+        id = document.getElementById('clientInfoId').innerHTML;
+        name = document.getElementById('clientInfoName').innerHTML;
+        phone = document.getElementById('clientInfoPhone').innerHTML;
+        schedulingDate = document.getElementById('clientInfoSchedulingDate').innerHTML;
+        schedulingHour = document.getElementById('clientInfoSchedulingHour').innerHTML;
 
-    $('#addClient fieldset #inputClientFullname').val(name);
-    $('#addClient fieldset #inputClientPhone').val(phone);
-    $('#addClient fieldset #inputClientSchedulingDate').val(schedulingDate);
-    $('#addClient fieldset #inputClientSchedulingHour').val(schedulingHour);   
+
+        $('#addClient fieldset #inputClientFullname').val(name);
+        $('#addClient fieldset #inputClientPhone').val(phone);
+        $('#addClient fieldset #inputClientSchedulingDate').val(schedulingDate);
+        $('#addClient fieldset #inputClientSchedulingHour').val(schedulingHour);
 };
 
+
+//Edit Client
+function editClient(){
+    event.preventDefault();
+
+    // Pop up a confirmation dialog
+    var confirmation = confirm('Are you sure you want to edit this scheduling?');
+
+    // Check and make sure the client confirmed
+    if (confirmation === true) {
+
+        //get the ID of the selected client
+        id = document.getElementById('clientInfoId').innerHTML;
+
+        // If they did, do our update
+        $.ajax({
+            type: 'POST',
+            url: '/clients/updateclient/' + $(this).attr('rel')
+        }).done(function( response ) {
+
+            // Check for a successful (blank) response
+            if (response.msg === '') {
+            }
+            else {
+                alert('Error: ' + response.msg);
+            }
+        });
+
+    }
+    else {
+
+        // If they said no to the confirm, do nothing
+        return false;
+
+    }
+};
 
 // Delete Client
 function deleteClient(event) {
@@ -179,5 +218,7 @@ function deleteClient(event) {
     // Delete Client link click
     $('#clientList table tbody').on('click', 'td a.linkdeleteclient', deleteClient);
 
-    // Edit Client button click
-    $('#btnEdit').on('click', editClient);
+    // Get Client button click
+    $('#btnEdit').on('click', getClient);
+
+    $('#btnEditClient').on('click', editClient);

@@ -1,0 +1,68 @@
+extends layout
+
+block content
+
+    <img src='images/estetoscopio.jpg' />
+
+    h1= "OnLine Clinic" 
+    p Welcome to your online Clinic!
+
+
+    //WRAPPER
+    #wrapper
+
+        // ADD CLIENTS
+        h1 Scheduling
+        h2 Schedule query
+        #addClient
+            fieldset
+                input#inputClientFullname(type='text', placeholder='Name')
+                input#inputClientPhone(type='text', placeholder='Phone')
+                input#inputClientSchedulingDate(type='date')
+                input#inputClientSchedulingHour(type='time')
+                br    
+                button#btnAddClient Add Client
+                button#btnEditClient Edit Client
+                br
+                br
+                br 
+        
+    //WRAPPER
+    #wrapper
+
+        // TABLE WITH LIST OF CLIENTS 
+        h2 List of schedules
+        #clientList
+            table
+                thead
+                    th Client
+                    th Phone
+                    th Scheduled
+                    th Cancel Service?
+                tbody
+
+
+         // INFORMATION FROM CLIENT
+        #clientInfo
+            h2 Information from Client
+            p
+                strong Client:
+                |  <span id='clientInfoName'></span>
+                br
+                br
+                strong Phone:
+                |  <span id='clientInfoPhone'></span>
+                br
+                br
+                strong Scheduled:
+                |  <span id='clientInfoSchedulingDate'></span>
+                |  <span id='clientInfoSchedulingHour'></span>
+                br
+                br
+                button#btnEdit Edit
+
+
+
+        
+    
+

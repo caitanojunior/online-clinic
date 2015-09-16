@@ -1,0 +1,68 @@
+body {
+	padding:5px;
+	font:13px "Lucida Grande",Helvetica,Arial,sans-serif
+}
+
+h2 {
+	margin:0 0 .5em 0
+}
+
+a {
+	color:#00b7ff
+}
+
+#wrapper {
+	padding-left:312px;
+	position:relative
+}
+
+#clientList {
+	margin:0 0 30px 0
+}
+
+#clientList table {
+	border-collapse:separate;
+	border-spacing:1px;
+	background:#ccc
+}
+
+#clientList table th {
+	background:#eee;
+	font-weight:600;
+	padding:10px 20px;
+	text-align:center
+}
+
+#clientList table tbody {
+	padding:0;
+	margin:0;
+	border-collapse:
+	collapse;
+	border-spacing:0
+}
+
+#clientList table td {
+	background:#fff;
+	padding:5px 10px;
+	text-align:center
+}
+
+#clientInfo {
+	width:250px;
+	position:absolute;
+	top:0;
+	left:0 
+}
+
+#clientInfo p {
+	padding:15px;
+	border:1px solid #ccc;
+	background:rgba(80,120,255,.05)
+}
+
+fieldset {
+	border:0;
+	padding:0;
+	margin:0
+}
+

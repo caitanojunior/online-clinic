@@ -23,19 +23,15 @@ router.post('/addclient', function(req, res) {
     });
 });
 
-router.put('/updateclient', function(req, res){
+/*
+ * UPDATE to updateClient.
+ */
+router.put('/updateclient/:id', function(req, res){
     var db = req.db;
-
-    var name = req.body.fullname;
-    var phone = req.body.phone;
-    var schedulingData = req.body.schedulingDate;
-    var schedulingHour = req.body.schedulingHour;
-
-    mongoose.model()
     var collection = db.get('clientlist');
-    var clientToUpdate  =req.params.id;
-    collection.update({ '_id' : clientToUpdate}, function(err) {
-        res.send((err ===null) ? {msg: ''} : { msg:'error: ' + err });
+    var clientToUpdate = req.params.id;
+    collection.update({ '_id' : clientToUpdate }, function(err) {
+        res.send((err === null) ? {msg: ''} : { msg: 'error: ' + err})
     });
 });
 

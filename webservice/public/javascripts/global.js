@@ -59,6 +59,7 @@ function populateTable() {
 		$('#clientInfoPhone').text(thisClientObject.phone);
 		$('#clientInfoSchedulingDate').text(thisClientObject.schedulingDate);
         $('#clientInfoSchedulingHour').text(thisClientObject.schedulingHour);
+
 	};
 
 	// Add Client
@@ -125,7 +126,6 @@ function getClient(event) {
         schedulingDate = document.getElementById('clientInfoSchedulingDate').innerHTML;
         schedulingHour = document.getElementById('clientInfoSchedulingHour').innerHTML;
 
-
         $('#addClient fieldset #inputClientFullname').val(name);
         $('#addClient fieldset #inputClientPhone').val(phone);
         $('#addClient fieldset #inputClientSchedulingDate').val(schedulingDate);
@@ -143,13 +143,23 @@ function editClient(){
     // Check and make sure the client confirmed
     if (confirmation === true) {
 
-        //get the ID of the selected client
-        id = document.getElementById('clientInfoId').innerHTML;
+        name = $('#inputClientFullname').val();
+        phone = $('#inputClientPhone').val();
+        schedulingDate = $('#inputClientSchedulingDate').val();
+        schedulingHour = $('#inputClientSchedulingHour').val();
 
-        // If they did, do our update
+        var clientUpdated = {
+            'fullname': $('#addClient fieldset input#inputClientFullname').val(name),
+            'phone': $('#addClient fieldset input#inputClientPhone').val(phone),
+            'schedulingDate': $('#addClient fieldset input#inputClientSchedulingDate').val(schedulingDate),
+            'schedulingHour': $('#addClient fieldset input#inputClientSchedulingHour').val(schedulingHour)
+        }
+
         $.ajax({
             type: 'POST',
-            url: '/clients/updateclient/' + $(this).attr('rel')
+            data: clientUpdated,
+            url: '/clients/updateclient' + $(this).attr('rel'),
+            dataType: 'JSON'
         }).done(function( response ) {
 
             // Check for a successful (blank) response
@@ -158,6 +168,10 @@ function editClient(){
             else {
                 alert('Error: ' + response.msg);
             }
+
+            // Update the table
+            populateTable();
+
         });
 
     }
@@ -222,3 +236,5 @@ function deleteClient(event) {
     $('#btnEdit').on('click', getClient);
 
     $('#btnEditClient').on('click', editClient);
+
+

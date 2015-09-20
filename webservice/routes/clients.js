@@ -24,7 +24,7 @@ router.post('/addclient', function(req, res) {
 });
 
 /*
- * UPDATE to updateClient.
+ * PUT to updateClient.
  */
 router.put('/updateclient/:id', function(req, res){
     var db = req.db;

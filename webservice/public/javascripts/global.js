@@ -59,7 +59,6 @@ function populateTable() {
 		$('#clientInfoPhone').text(thisClientObject.phone);
 		$('#clientInfoSchedulingDate').text(thisClientObject.schedulingDate);
         $('#clientInfoSchedulingHour').text(thisClientObject.schedulingHour);
-
 	};
 
 	// Add Client
@@ -130,6 +129,7 @@ function getClient(event) {
         $('#addClient fieldset #inputClientPhone').val(phone);
         $('#addClient fieldset #inputClientSchedulingDate').val(schedulingDate);
         $('#addClient fieldset #inputClientSchedulingHour').val(schedulingHour);
+
 };
 
 
@@ -143,37 +143,32 @@ function editClient(){
     // Check and make sure the client confirmed
     if (confirmation === true) {
 
-        name = $('#inputClientFullname').val();
-        phone = $('#inputClientPhone').val();
-        schedulingDate = $('#inputClientSchedulingDate').val();
-        schedulingHour = $('#inputClientSchedulingHour').val();
-
-        var clientUpdated = {
-            'fullname': $('#addClient fieldset input#inputClientFullname').val(name),
-            'phone': $('#addClient fieldset input#inputClientPhone').val(phone),
-            'schedulingDate': $('#addClient fieldset input#inputClientSchedulingDate').val(schedulingDate),
-            'schedulingHour': $('#addClient fieldset input#inputClientSchedulingHour').val(schedulingHour)
+        var clientUpdated  = {
+            'fullname': $('#addClient fieldset #inputClientFullname').val(),
+            'phone':  $('#addClient fieldset #inputClientPhone').val(),
+            'schedulingDate': $('#addClient fieldset #inputClientSchedulingDate').val(),
+            'schedulingHour': $('#addClient fieldset #inputClientSchedulingHour').val()
         }
-
+        // If they did, do our update
         $.ajax({
-            type: 'POST',
+            type: 'PUT',
             data: clientUpdated,
-            url: '/clients/updateclient' + $(this).attr('rel'),
+            url: '/clients/updateclient/' + $(this).attr('rel'),
             dataType: 'JSON'
         }).done(function( response ) {
 
             // Check for a successful (blank) response
             if (response.msg === '') {
+                // Clear the form inputs
+                $('#addClient fieldset input').val('');
+
+                // Update the table
+                populateTable();
             }
             else {
                 alert('Error: ' + response.msg);
             }
-
-            // Update the table
-            populateTable();
-
         });
-
     }
     else {
 

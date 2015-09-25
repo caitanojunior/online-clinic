@@ -59,6 +59,7 @@ function populateTable() {
 		$('#clientInfoPhone').text(thisClientObject.phone);
 		$('#clientInfoSchedulingDate').text(thisClientObject.schedulingDate);
         $('#clientInfoSchedulingHour').text(thisClientObject.schedulingHour);
+
 	};
 
 	// Add Client
@@ -144,17 +145,18 @@ function editClient(){
     if (confirmation === true) {
 
         var clientUpdated  = {
+            '_id': id,
             'fullname': $('#addClient fieldset #inputClientFullname').val(),
             'phone':  $('#addClient fieldset #inputClientPhone').val(),
             'schedulingDate': $('#addClient fieldset #inputClientSchedulingDate').val(),
             'schedulingHour': $('#addClient fieldset #inputClientSchedulingHour').val()
         }
-        // If they did, do our update
+
         $.ajax({
-            type: 'PUT',
-            data: clientUpdated,
-            url: '/clients/updateclient/' + $(this).attr('rel'),
-            dataType: 'JSON'
+            type:'post',
+            data:clientUpdated,
+            dataType:'json',
+            url: '/clients/updateclient/' + id
         }).done(function( response ) {
 
             // Check for a successful (blank) response
@@ -230,6 +232,7 @@ function deleteClient(event) {
     // Get Client button click
     $('#btnEdit').on('click', getClient);
 
+    // Edit Client button click
     $('#btnEditClient').on('click', editClient);
 
 

@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/clientlist', function(req, res) {
     var db = req.db;
     var collection = db.get('clientlist');
-    collection.find({},{},function(e,docs){
+    collection.findById({},{},function(e,docs){
         res.json(docs);
     });
 });
@@ -27,11 +27,15 @@ router.post('/addclient', function(req, res) {
  * PUT to updateClient.
  */
 router.put('/updateclient/:id', function(req, res){
+
     var db = req.db;
     var collection = db.get('clientlist');
-    var clientToUpdate = req.params.id;
-    collection.update({ '_id' : clientToUpdate }, function(err) {
-        res.send((err === null) ? {msg: ''} : { msg: 'error: ' + err})
+    collection.findById(req.params.id,function(err,docs){
+        res.json(docs);
+        var clientToUpdate = req.params.id;
+        collection.save({ '_id' : clientToUpdate }, function(err){
+            res.send((err === null) ? { msg: '' } : { msg:'error: ' + err });
+        });
     });
 });
 

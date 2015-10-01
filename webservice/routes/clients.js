@@ -5,10 +5,11 @@ var router = express.Router();
 router.get('/clientlist', function(req, res) {
     var db = req.db;
     var collection = db.get('clientlist');
-    collection.findById({},{},function(e,docs){
+    collection.find({},{},function(e,docs){
         res.json(docs);
     });
 });
+
 
 /*
  * POST to addclient.

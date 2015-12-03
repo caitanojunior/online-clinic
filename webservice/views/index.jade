@@ -7,28 +7,40 @@ block content
     h1= "OnLine Clinic" 
     p Welcome to your online Clinic!
 
-
     //WRAPPER
     #wrapper
-
         // ADD CLIENTS
         h1 Scheduling
         h2 Schedule query
+
+        h3 personal data
         #addClient
             fieldset
                 input#inputClientFullname(type='text', placeholder='Name')
+                &nbsp;
                 input#inputClientPhone(type='text', placeholder='Phone')
+                h3 health plan data
+                select#inputClientHealthPlan
+                        option  Unimed
+                        option  Bradesco
+                        option  Smile
+                        option  Particular
+                &nbsp;
+                input#inputClientHealthPlanNumber(type='text', placeholder='Health Plan Number')
+                &nbsp;
                 input#inputClientSchedulingDate(type='date')
+                &nbsp;
                 input#inputClientSchedulingHour(type='time')
-                br    
+                br
+                br
                 button#btnAddClient Add Client
                 button#btnEditClient  Edit Client
                 br
                 br
-                br 
         
     //WRAPPER
     #wrapper
+
 
         // TABLE WITH LIST OF CLIENTS 
         h2 List of schedules
@@ -37,30 +49,35 @@ block content
                 thead
                     th Client
                     th Phone
+                    th Health Plan Number
+                    th Health Plan
                     th Scheduled
                     th Cancel Service?
                 tbody
-
 
          // INFORMATION FROM CLIENT
         #clientInfo
             h2 Information from Client
             p
-                strong Id:
-                |  <span id='clientInfoId'></span>
+                strong Health Plan:
+                  <span id='clientInfoId'></span>
+                br
+                br
+                strong Health Plan Number:
+                    <span id='clientInfoId'></span>
                 br
                 br
                 strong Client:
-                |  <span id='clientInfoName'></span>
+                  <span id='clientInfoName'></span>
                 br
                 br
                 strong Phone:
-                |  <span id='clientInfoPhone'></span>
+                  <span id='clientInfoPhone'></span>
                 br
                 br
                 strong Scheduled:
-                |  <span id='clientInfoSchedulingDate'></span>
-                |  <span id='clientInfoSchedulingHour'></span>
+                  <span id='clientInfoSchedulingDate'></span>
+                  <span id='clientInfoSchedulingHour'></span>
                 br
                 br
                 button#btnEdit Edit

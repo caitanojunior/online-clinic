@@ -28,6 +28,8 @@ function populateTable() {
             tableContent += '<tr>';
             tableContent += '<td><a href="#" class="linkshowclient" rel="' + this.fullname + '">' + this.fullname + '</a></td>';									
             tableContent += '<td>' + this.phone + '</td>';
+            tableContent += '<td>' + this.healthPlanNumber + '</td>';
+            tableContent += '<td>' + this.healthPlan + '</td>';
             tableContent += '<td>' + this.schedulingDate + ' ' + '<b>' + this.schedulingHour + '</b>'+ '</td>';
             tableContent += '<td><a href="#" class="linkdeleteclient" rel="' + this._id + '">Cancel</a></td>';
             tableContent += '</tr>';
@@ -54,7 +56,8 @@ function populateTable() {
 		var thisClientObject = clientListData[arrayPosition];
 
 		//Populate Info Box
-        $('#clientInfoId').text(thisClientObject._id);
+        $('#healthPlan').text(thisClientObject.healthPlan);
+        $('#healthPlanNumber').text(thisClientObject.healthPlanNumber);
 		$('#clientInfoName').text(thisClientObject.fullname);
 		$('#clientInfoPhone').text(thisClientObject.phone);
 		$('#clientInfoSchedulingDate').text(thisClientObject.schedulingDate);
@@ -79,7 +82,7 @@ function addClient(event) {
         var newClient = {
             'fullname': $('#addClient fieldset input#inputClientFullname').val(),
             'phone': $('#addClient fieldset input#inputClientPhone').val(),
-            'healthPlan' : $('#addClient fieldset input#inputClientHealthPlan').text(),//falta resolver
+            'healthPlan' : $('#addClient option input#inputClientHealthPlan').val(),
             'healthPlanNumber' : $('#addClient fieldset input#inputClientHealthPlanNumber').val(),
             'schedulingDate': $('#addClient fieldset input#inputClientSchedulingDate').val(),
             'schedulingHour': $('#addClient fieldset input#inputClientSchedulingHour').val()

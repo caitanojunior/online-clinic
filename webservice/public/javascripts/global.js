@@ -79,7 +79,7 @@ function addClient(event) {
         var newClient = {
             'fullname': $('#addClient fieldset input#inputClientFullname').val(),
             'phone': $('#addClient fieldset input#inputClientPhone').val(),
-            'healthPlan' : $('#addClient fieldset input#inputClientHealthPlan').val(),
+            'healthPlan' : $('#addClient fieldset input#inputClientHealthPlan').text(),//falta resolver
             'healthPlanNumber' : $('#addClient fieldset input#inputClientHealthPlanNumber').val(),
             'schedulingDate': $('#addClient fieldset input#inputClientSchedulingDate').val(),
             'schedulingHour': $('#addClient fieldset input#inputClientSchedulingHour').val()

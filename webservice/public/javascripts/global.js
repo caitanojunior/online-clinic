@@ -33,6 +33,7 @@ function populateTable() {
             tableContent += '<td>' + this.schedulingDate + ' ' + '<b>' + this.schedulingHour + '</b>'+ '</td>';
             tableContent += '<td><a href="#" class="linkdeleteclient" rel="' + this._id + '">Cancel</a></td>';
             tableContent += '</tr>';
+
         });
 
         // Inject the whole content string into our existing HTML table
@@ -82,7 +83,7 @@ function addClient(event) {
         var newClient = {
             'fullname': $('#addClient fieldset input#inputClientFullname').val(),
             'phone': $('#addClient fieldset input#inputClientPhone').val(),
-            'healthPlan' : $('#addClient option input#inputClientHealthPlan').val(),
+            'healthPlan' : $('#addClient #inputClientHealthPlan').val(),
             'healthPlanNumber' : $('#addClient fieldset input#inputClientHealthPlanNumber').val(),
             'schedulingDate': $('#addClient fieldset input#inputClientSchedulingDate').val(),
             'schedulingHour': $('#addClient fieldset input#inputClientSchedulingHour').val()

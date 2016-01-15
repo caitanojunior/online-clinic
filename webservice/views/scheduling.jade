@@ -1,0 +1,90 @@
+extends layout
+
+block content
+
+    <img src='images/estetoscopio.jpg' />
+
+    h2 OnLine Clinic
+
+    //WRAPPER
+    #wrapper
+        // ADD CLIENTS
+        h2 Schedule query
+
+        h3 personal data
+        #addClient
+            fieldset
+                input#inputClientFullname(type='text', placeholder='Name')
+                &nbsp;
+                input#inputClientPhone(type='text', placeholder='Phone')
+                h3 health plan data
+                select#inputClientHealthPlan
+                        option(value='Unimed') Unimed
+                        option(value='Bradesco') Bradesco
+                        option(value='Smile') Smile
+                        option(value='Particular') Particular
+                &nbsp;
+                input#inputClientHealthPlanNumber(type='text', placeholder='Health Plan Number')
+                &nbsp;
+                input#inputClientSchedulingDate(type='date')
+                &nbsp;
+                input#inputClientSchedulingHour(type='time')
+                br
+                br
+                button#btnAddClient Add Client
+                &nbsp;
+                button#btnEditClient  Edit Client
+                br
+
+    //WRAPPER
+    #wrapper
+
+
+        // TABLE WITH LIST OF CLIENTS 
+        h3 List of schedules
+        #clientList
+            table
+                thead
+                    th Client
+                    th Phone
+                    th Health Plan Number
+                    th Health Plan
+                    th Scheduled
+                    th Cancel Service?
+                tbody
+
+
+            input(type='button', value='Back', onclick='history.go(-1)')
+
+         // INFORMATION FROM CLIENT
+        #clientInfo
+            h2 Information from Client
+            p
+                weak Health Plan:
+                  <span id='healthPlan'></span>
+                br
+                br
+                weak Health Plan Number:
+                    <span id='healthPlanNumber'></span>
+                br
+                br
+                weak Client:
+                  <span id='clientInfoName'></span>
+                br
+                br
+                weak Phone:
+                  <span id='clientInfoPhone'></span>
+                br
+                br
+                weak Scheduled:
+                  <span id='clientInfoSchedulingDate'></span>
+                  <span id='clientInfoSchedulingHour'></span>
+                br
+                br
+                button#btnEdit Edit
+
+
+
+        
+    
+

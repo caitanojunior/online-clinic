@@ -1,89 +1,17 @@
+//
+   Created by caitano on 05/01/16.
+
 extends layout
-
 block content
+   <img src='images/estetoscopio.jpg' />
+   h1= "OnLine Clinic"
+   p Welcome to your online Clinic!
 
-    <img src='images/estetoscopio.jpg' />
-
-    h1= "OnLine Clinic" 
-    p Welcome to your online Clinic!
-
-    //WRAPPER
-    #wrapper
-        // ADD CLIENTS
-        h1 Scheduling
-        h2 Schedule query
-
-        h3 personal data
-        #addClient
-            fieldset
-                input#inputClientFullname(type='text', placeholder='Name')
-                &nbsp;
-                input#inputClientPhone(type='text', placeholder='Phone')
-                h3 health plan data
-                select#inputClientHealthPlan
-                        option(value='unimed') Unimed
-                        option(value='bradesco') Bradesco
-                        option(value='smile') Smile
-                        option(value='particular') Particular
-                &nbsp;
-                input#inputClientHealthPlanNumber(type='text', placeholder='Health Plan Number')
-                &nbsp;
-                input#inputClientSchedulingDate(type='date')
-                &nbsp;
-                input#inputClientSchedulingHour(type='time')
-                br
-                br
-                button#btnAddClient Add Client
-                button#btnEditClient  Edit Client
-                br
-                br
-        
-    //WRAPPER
-    #wrapper
-
-
-        // TABLE WITH LIST OF CLIENTS 
-        h2 List of schedules
-        #clientList
-            table
-                thead
-                    th Client
-                    th Phone
-                    th Health Plan Number
-                    th Health Plan
-                    th Scheduled
-                    th Cancel Service?
-                tbody
-
-         // INFORMATION FROM CLIENT
-        #clientInfo
-            h2 Information from Client
-            p
-                strong Health Plan:
-                  <span id=''></span>
-                br
-                br
-                strong Health Plan Number:
-                    <span id='healthPlanNumber'></span>
-                br
-                br
-                strong Client:
-                  <span id='clientInfoName'></span>
-                br
-                br
-                strong Phone:
-                  <span id='clientInfoPhone'></span>
-                br
-                br
-                strong Scheduled:
-                  <span id='clientInfoSchedulingDate'></span>
-                  <span id='clientInfoSchedulingHour'></span>
-                br
-                br
-                button#btnEdit Edit
-
-
-
-        
-    
-
+   ul
+      ul
+         ul
+            ul
+               ul
+                  ul
+                     li
+                        a(href='/scheduling') Scheduling

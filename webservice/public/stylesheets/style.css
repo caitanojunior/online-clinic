@@ -12,7 +12,7 @@ a {
 }
 
 #wrapper {
-	padding-left:312px;
+	padding-left:350px;
 	position:relative
 }
 
@@ -48,14 +48,14 @@ a {
 }
 
 #clientInfo {
-	width:250px;
+	width:270px;
 	position:absolute;
 	top:0;
 	left:0 
 }
 
 #clientInfo p {
-	padding:15px;
+	padding:5px;
 	border:1px solid #ccc;
 	background:rgba(80,120,255,.05)
 }

@@ -2,5 +2,7 @@
     <string name="app_name">ControlPoint</string>
 
     <string name="hello_world">Online Clinic</string>
+    <string name="buttonGetSchedule">See Schedule</string>
+    <string name="scheduleLabel">Schedule of the day</string>
     <string name="action_settings">Settings</string>
 </resources>

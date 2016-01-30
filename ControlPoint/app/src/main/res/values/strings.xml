@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">ControlPoint</string>
+    <string name="app_name">Clinic Mobile</string>
 
     <string name="hello_world">Online Clinic</string>
     <string name="buttonGetSchedule">See Schedule</string>
     <string name="scheduleLabel">Schedule of the day</string>
     <string name="action_settings">Settings</string>
+
+    <string name="id_label">The ID is</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">The Content is</string>
+    <string name="content_value">[content]</string>
+    <string name="action_refresh">Refresh</string>
 </resources>

@@ -11,6 +11,7 @@ router.get('/clientlist', function(req, res) {
 });
 
 
+
 /*
  * POST to addclient.
  */
@@ -52,5 +53,17 @@ router.delete('/deleteclient/:id', function(req, res) {
         res.send((err === null) ? { msg: '' } : { msg:'error: ' + err });
     });
 });
+
+/* GET one client. */
+router.get('/clientlist/:id', function(req, res) {
+    var db = req.db;
+    var collection = db.get('clientlist');
+    var oneClient = req.params.id;
+    collection.findOne({'_id': oneClient},function(e,docs){
+        res.json(docs);
+    });
+});
+
+
 
 module.exports = router;

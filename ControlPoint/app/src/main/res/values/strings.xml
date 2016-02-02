@@ -1,14 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Clinic Mobile</string>
 
-    <string name="hello_world">Online Clinic</string>
-    <string name="buttonGetSchedule">See Schedule</string>
-    <string name="scheduleLabel">Schedule of the day</string>
-    <string name="action_settings">Settings</string>
+    <string name="_id_label">ID:</string>
+    <string name="_id_value">[_id]</string>
 
-    <string name="id_label">The ID is</string>
-    <string name="id_value">[id]</string>
-    <string name="content_label">The Content is</string>
-    <string name="content_value">[content]</string>
+    <string name="fullname_label">Fullname:</string>
+    <string name="fullname_value">[fullname]</string>
+
+    <string name="phone_label">Phone:</string>
+    <string name="phone_value">[phone]</string>
+
+    <string name="healthPlan_label">Health Plan:</string>
+    <string name="healthPlan_value">[healthPlan]</string>
+
+    <string name="healthPlanNumber_label">Health Plan Number:</string>
+    <string name="healthPlanNumber_value">[healthPlanNumber]</string>
+
+    <string name="schedulingDate_label">Scheduling Date:</string>
+    <string name="schedulingDate_value">[schedulingDate]</string>
+
+    <string name="schedulingHour_label">Scheduling Hour:</string>
+    <string name="schedulingHour_value">[schedulingHour]</string>
+
     <string name="action_refresh">Refresh</string>
+
 </resources>

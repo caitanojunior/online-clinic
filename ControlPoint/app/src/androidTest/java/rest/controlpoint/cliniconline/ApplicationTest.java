@@ -1,4 +1,4 @@
-package controlpoint.com.br.controlpoint;
+package rest.controlpoint.cliniconline;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

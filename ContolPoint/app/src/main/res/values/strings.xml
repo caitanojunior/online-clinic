@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clinic Mobile</string>
+
+    <string name="id_label">ID:</string>
+    <string name="id_value">[id]</string>
+
+    <string name="name_label">Full Name:</string>
+    <string name="name_value">[fullname]</string>
+
+    <string name="phone_label">Phone:</string>
+    <string name="phone_value">[phone]</string>
+
+    <string name="healthPlan_label">Health Plan:</string>
+    <string name="healthPlan_value">[healthPlan]</string>
+
+    <string name="healthPlanNumber_label">Health Plan Number:</string>
+    <string name="healthPlanNumber_value">[healthPlanNumber]</string>
+
+    <string name="schedulingDate_label">Scheduling Date:</string>
+    <string name="schedulingDate_value">[schedulingDate]</string>
+
+    <string name="schedulingHour_label">Scheduling Hour:</string>
+    <string name="schedulingHour_value">[schedulingHour]</string>
+
+    <string name="action_refresh">Refresh</string>
+
+</resources>

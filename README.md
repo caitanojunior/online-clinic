@@ -1,4 +1,4 @@
-# online-clinic
+# Clinic-Online
 This project is the result of completion of course work in software engineering.
 called Online Clinic. Was used in this work the following technologies:
 

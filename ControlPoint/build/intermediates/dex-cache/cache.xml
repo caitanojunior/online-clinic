@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="182b26e811a02c955bc417eaac882a6d8bd9a925">
+        <dex dex="/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_ae2ec278a97173e14a3ba27badf4705a768b0c37/classes.dex" />
+    </item>
+    <item
+        jar="/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6b0ba380b4e0222a0e78371556e54bc3ba6eccab">
+        <dex dex="/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_0847b326b19073e9cab41c4f72afa1b699278afa/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_clinic.png",
+        "source": "/home/caitano/git-local/online-clinic/ControlPoint/app/src/main/res/drawable-mdpi/ic_clinic.png"
+    },
+    {
+        "merged": "/home/caitano/git-local/online-clinic/ControlPoint/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/caitano/git-local/online-clinic/ControlPoint/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]

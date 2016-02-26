@@ -19,12 +19,23 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080002;
-        public static final int txtFullname=0x7f080000;
-        public static final int txtPhone=0x7f080001;
+        public static final int action_settings=0x7f08000d;
+        public static final int details=0x7f080000;
+        public static final int fullname=0x7f080001;
+        public static final int health_plan=0x7f080005;
+        public static final int health_plan_number=0x7f080007;
+        public static final int phone=0x7f080003;
+        public static final int scheduling_date=0x7f080009;
+        public static final int scheduling_hour=0x7f08000b;
+        public static final int txt_fullname=0x7f080002;
+        public static final int txt_health_plan=0x7f080006;
+        public static final int txt_health_plan_number=0x7f080008;
+        public static final int txt_phone=0x7f080004;
+        public static final int txt_scheduling_date=0x7f08000a;
+        public static final int txt_scheduling_hour=0x7f08000c;
     }
     public static final class layout {
-        public static final int activity_informacoes=0x7f030000;
+        public static final int daily_schedule=0x7f030000;
     }
     public static final class menu {
         public static final int informacoes=0x7f070000;
@@ -32,10 +43,21 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060000;
         public static final int app_name=0x7f060001;
-        public static final int fullname=0x7f060002;
-        public static final int hello_world=0x7f060003;
-        public static final int nascimento=0x7f060004;
-        public static final int phone=0x7f060005;
+        public static final int client_details=0x7f060002;
+        public static final int fullname=0x7f060003;
+        public static final int health_plan=0x7f060004;
+        public static final int health_plan_number=0x7f060005;
+        public static final int hello_world=0x7f060006;
+        public static final int label_fullname=0x7f060007;
+        public static final int label_health_plan=0x7f060008;
+        public static final int label_health_plan_number=0x7f060009;
+        public static final int label_phone=0x7f06000a;
+        public static final int label_scheduling_date=0x7f06000b;
+        public static final int label_scheduling_hour=0x7f06000c;
+        public static final int phone=0x7f06000d;
+        public static final int scheduling_date=0x7f06000e;
+        public static final int scheduling_hour=0x7f06000f;
+        public static final int title=0x7f060010;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

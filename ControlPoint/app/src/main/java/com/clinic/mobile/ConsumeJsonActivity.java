@@ -16,6 +16,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -43,7 +44,7 @@ public class ConsumeJsonActivity extends ListActivity {
 
 		Client client = (Client) l.getAdapter().getItem(position);
 
-		Intent intent = new Intent(this, InformationsActivity.class);
+		Intent intent = new Intent(this, DailySchedule.class);
 		intent.putExtra("client", client);
 		startActivity(intent);
 	}
@@ -101,7 +102,7 @@ public class ConsumeJsonActivity extends ListActivity {
 				builder.create().show();
 			}
 		}
-		
+
 		//Retorna uma lista de clientes com as informações retornadas do JSON
 		private List<Client> getClients(String jsonString) {
 			List<Client> clients = new ArrayList<Client>();
@@ -117,6 +118,10 @@ public class ConsumeJsonActivity extends ListActivity {
 					Client objetoClient = new Client();
 					objetoClient.setFullname(client.getString("fullname"));
 					objetoClient.setPhone(client.getString("phone"));
+					objetoClient.setHealthPlan(client.getString("healthPlan"));
+					objetoClient.setHealthPlanNumber(client.getString("healthPlanNumber"));
+					objetoClient.setSchedulingDate(client.getString("schedulingDate"));
+					objetoClient.setSchedulingHour(client.getString("schedulingHour"));
 					clients.add(objetoClient);
 				}
 
@@ -125,7 +130,7 @@ public class ConsumeJsonActivity extends ListActivity {
 			}
 			return clients;
 		}
-		
+
 
 		//Converte objeto InputStream para String
 		private String getStringFromInputStream(InputStream is) {

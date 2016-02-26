@@ -2,51 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229f790b-d216-4a03-a7af-eebd22b26a32" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/runConfigurations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/ControlPoint.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/androidTest/java/rest/controlpoint/cliniconline/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/rest/controlpoint/cliniconline/Clientlist.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/rest/controlpoint/cliniconline/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/layout/fragment_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-hdpi/ic_clinic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-mdpi/ic_clinic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xhdpi/ic_clinic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xxhdpi/ic_clinic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xxxhdpi/ic_clinic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xxxhdpi/ic_clinic.resized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/test/java/rest/controlpoint/cliniconline/ExampleUnitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/settings.gradle" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/layout/daily_schedule.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/libraries/httpcore_4_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/libraries/org_apache_http_legacy_android_23.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/generated/source/buildConfig/androidTest/debug/com/exemplo/informacoes/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/multi/values-sw720dp-land-v13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/InformationsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-classes/debug/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/ConsumeJsonActivity$DownloadJsonAsyncTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/ConsumeJsonActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/InformationsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental-verifier/debug/com/clinic/mobile/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/instant-run-support/debug/package.marker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/instant-run-support/debug/slices.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_clinic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_clinic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_clinic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_clinic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/layout/activity_informacoes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_0847b326b19073e9cab41c4f72afa1b699278afa/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_ae2ec278a97173e14a3ba27badf4705a768b0c37/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0_d8c7977643b71547e81f2d1193cc54429a0bd64c/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1_ecffbaafa36b74bbe45a5eedc422dcf2892d973d/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2_2ecfb2ddbbac908cbfbcc99129f3bbcdc21d4c14/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3_196ed83ac05a63c22e97b3ded70e9e4ba817d25e/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4_54806556b5f2f01347d24d599e47d250e8de78eb/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5_1c4d1b122e4223b029a43c433a7f7392f2b2a1b2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6_d260e121bdbb3136b4a6459347786eb485b86d04/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/ConsumeJsonActivity$DownloadJsonAsyncTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/ConsumeJsonActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/InformationsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/clinic/mobile/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/clinic/mobile/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/clinic/mobile/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/clinic/mobile/ConsumeJsonActivity$DownloadJsonAsyncTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/clinic/mobile/ConsumeJsonActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/clinic/mobile/InformationsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/clinic/mobile/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/clinic/mobile/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/clinic/mobile/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/clinic/mobile/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/clinic/mobile/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/clinic/mobile/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/clinic/mobile/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/clinic/mobile/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/clinic/mobile/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/layout/activity_informacoes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/InformationsActivity.java" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/DailySchedule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/BuildConfig.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/Client.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/ConsumeJsonActivity$DownloadJsonAsyncTask.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/ConsumeJsonActivity$DownloadJsonAsyncTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/ConsumeJsonActivity.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/ConsumeJsonActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$attr.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$dimen.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$drawable.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$id.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$layout.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$menu.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$string.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$style.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R.class" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/classes/debug/com/clinic/mobile/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../ControlPoint/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/generated/source/buildConfig/debug/com/clinic/mobile/BuildConfig.java" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/generated/source/buildConfig/debug/com/clinic/mobile/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/Client.java" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/ConsumeJsonActivity.java" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/java/com/clinic/mobile/ConsumeJsonActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/ControlPoint.iml" afterPath="$PROJECT_DIR$/../ControlPoint/ControlPoint.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/generated/source/r/debug/com/clinic/mobile/R.java" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/generated/source/r/debug/com/clinic/mobile/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/app.iml" afterPath="$PROJECT_DIR$/../ControlPoint/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/build.gradle" afterPath="$PROJECT_DIR$/../ControlPoint/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build.gradle" afterPath="$PROJECT_DIR$/../ControlPoint/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/../ControlPoint/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/global.js" afterPath="$PROJECT_DIR$/public/javascripts/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../ControlPoint/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/menu/informacoes.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/menu/informacoes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/scheduling.jade" afterPath="$PROJECT_DIR$/views/scheduling.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/../ControlPoint/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ControlPoint/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ControlPoint/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,21 +178,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.620438">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scheduling.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scheduling.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/scheduling.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.55525607">
+              <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -116,11 +217,11 @@
         <option value="$PROJECT_DIR$/views/agendamento.jade" />
         <option value="$PROJECT_DIR$/routes/agendamento.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/scheduling.jade" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/global.js" />
         <option value="$PROJECT_DIR$/routes/clients.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/javascripts/global.js" />
+        <option value="$PROJECT_DIR$/views/scheduling.jade" />
       </list>
     </option>
   </component>
@@ -352,27 +453,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="718" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613828" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2613828" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2527964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39871383" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20578778" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39871383" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -433,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,18 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5365853">
-          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3414634">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18203883">
           <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,18 +840,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/scheduling.jade">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6469003">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.620438">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/scheduling.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55525607">
+          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
           <folding />
         </state>
       </provider>

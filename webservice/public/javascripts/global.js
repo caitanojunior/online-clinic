@@ -56,6 +56,7 @@ function populateTable() {
 		// Get our Client Object
 		var thisClientObject = clientListData[arrayPosition];
 
+
 		//Populate Info Box
         $('#healthPlan').text(thisClientObject.healthPlan);
         $('#healthPlanNumber').text(thisClientObject.healthPlanNumber);

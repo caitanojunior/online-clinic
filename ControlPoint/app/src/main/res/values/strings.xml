@@ -2,11 +2,25 @@
 <resources>
 
     <string name="app_name">Client Mobile</string>
+    <string name="title">SCHEDULED MEDICAL VISITS</string>
+    <string name="client_details">CLIENT DETAILS</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    
-    <string name="fullname">Fulname</string>
-    <string name="phone">Phone</string>
-    <string name="nascimento">data de nascimento</string>
+
+    <string name="label_fullname">Patient:</string>
+    <string name="label_phone">Phone:</string>
+    <string name="label_health_plan">Health Plan:</string>
+    <string name="label_health_plan_number">Health Plan Number:</string>
+    <string name="label_scheduling_date">Scheduling Date:</string>
+    <string name="label_scheduling_hour">Scheduling Hour:</string>
+
+
+    <string name="fullname">[fullname]</string>
+    <string name="phone">[phone]</string>
+    <string name="health_plan">[healthplan]</string>
+    <string name="health_plan_number">[healthplannumber]</string>
+    <string name="scheduling_date">[schedulingdate]</string>
+    <string name="scheduling_hour">[schedulinghour]</string>
+
 
 </resources>

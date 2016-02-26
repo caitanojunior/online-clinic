@@ -19,9 +19,9 @@ block content
                 input#inputClientPhone(type='text', placeholder='Phone')
                 h3 health plan data
                 select#inputClientHealthPlan
-                        option(value='Unimed') Unimed
-                        option(value='Bradesco') Bradesco
-                        option(value='Smile') Smile
+                        option(value='Plano-1') Plano-1
+                        option(value='Plano-2') Plano-2
+                        option(value='Plano-3') Plano-3
                         option(value='Particular') Particular
                 &nbsp;
                 input#inputClientHealthPlanNumber(type='text', placeholder='Health Plan Number')
@@ -60,23 +60,23 @@ block content
         #clientInfo
             h2 Information from Client
             p
-                weak Health Plan:
+                weak <b>Health Plan:</b>
                   <span id='healthPlan'></span>
                 br
                 br
-                weak Health Plan Number:
+                weak <b>Health Plan Number:</b>
                     <span id='healthPlanNumber'></span>
                 br
                 br
-                weak Client:
+                weak <b>Client:</b>
                   <span id='clientInfoName'></span>
                 br
                 br
-                weak Phone:
+                weak <b>Phone:</b>
                   <span id='clientInfoPhone'></span>
                 br
                 br
-                weak Scheduled:
+                weak <b>Scheduled:</b>
                   <span id='clientInfoSchedulingDate'></span>
                   <span id='clientInfoSchedulingHour'></span>
                 br

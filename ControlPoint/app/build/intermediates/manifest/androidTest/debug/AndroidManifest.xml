@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.exemplo.informacoes.test">
+    package="com.clinic.mobile.test">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.exemplo.informacoes"
+                     android:targetPackage="com.clinic.mobile"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.exemplo.informacoes"/>
+                     android:label="Tests for com.clinic.mobile"/>
 </manifest>

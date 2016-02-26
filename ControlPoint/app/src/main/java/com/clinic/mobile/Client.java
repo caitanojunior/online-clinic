@@ -37,24 +37,14 @@ public class Client implements Serializable {
 		this.healthPlan = healthPlan;
 	}
 
-	public String getHealthPlanNumber() {
-		return healthPlanNumber;
-	}
-	public void setHealthPlanNumber(String healthPlanNumber) {this.phone = healthPlanNumber;}
+	public String getHealthPlanNumber() {return healthPlanNumber;}
+	public void setHealthPlanNumber(String healthPlanNumber) {this.healthPlanNumber = healthPlanNumber;}
 
-	public String getSchedulingDate() {
-		return schedulingDate;
-	}
-	public void setSchedulingDate(String schedulingDate) {
-		this.schedulingDate = schedulingDate;
-	}
+	public String getSchedulingDate() {return schedulingDate; }
+	public void setSchedulingDate(String schedulingDate) {this.schedulingDate = schedulingDate;	}
 
-	public String getSchedulinghour() {
-		return schedulingHour;
-	}
-	public void getSchedulinghour(String schedulingHour) {
-		this.schedulingHour = schedulingHour;
-	}
+	public String getSchedulingHour() {return schedulingHour;}
+	public void setSchedulingHour(String schedulingHour) {this.schedulingHour = schedulingHour;	}
 
 	@Override
 	public String toString() {

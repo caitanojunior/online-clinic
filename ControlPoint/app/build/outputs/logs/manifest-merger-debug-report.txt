@@ -7,8 +7,6 @@ ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/Andro
 		INJECTED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml
 	android:versionName
 		ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml
-		INJECTED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml
 	android:versionCode
 		ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml
@@ -55,7 +53,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:23:27-74
-activity#com.clinic.mobile.InformationsActivity
-ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:26:10-76
+activity#com.clinic.mobile.DailySchedule
+ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:26:10-52
 	android:name
-		ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:26:20-73
+		ADDED from /home/caitano/git-local/online-clinic/ControlPoint/app/src/main/AndroidManifest.xml:26:20-49

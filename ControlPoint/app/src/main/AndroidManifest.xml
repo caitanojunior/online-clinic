@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity android:name="com.clinic.mobile.InformationsActivity" />
+         <activity android:name=".DailySchedule" />
     </application>
 
 </manifest>
